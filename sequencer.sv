@@ -46,7 +46,7 @@ class Sequencer;
 
 		fork
 			#10 reset_address(4'hc);
-			#75 write_data(4'hc, 32'habcddbca);
+			#70 write_data(4'hc, 32'habcddbca);
 		join
 	endtask
 endclass
